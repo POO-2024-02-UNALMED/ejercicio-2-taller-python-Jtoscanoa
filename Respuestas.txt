@@ -1,3 +1,12 @@
 a) Se están definiendo 3 clases: Apostador, ComisionJuegoEspectaculos y Loteria.
 b) la linea if __name__ == "--main__": se usa para determinar si el script se está ejecutando como módulo o de forma directa, permitiendo solo ejecutar el script si este es ejecutado directamente.
-c) 
+c) El código que está debajo se ejecutaría cada vez que el archivo sea importado como módulo en otros scripts, no solo cuando se ejecute directamente.
+d) Se están creando 2 objetos de la clase Apostador: apostador1 y apostador2.
+e) Los objetos de la clase Apostador que se están creando son apostador1: id=1, nombre="Juan", teléfono=302, email="j@gmail.com" y apostador2: id=2, nombre="Ricardo", teléfono=548, email="r@gmail.com".
+f)  En la línea 15 de la clase Apostador (el método deposit), self hace referencia a la instancia específica de Apostador que llama al método. Cuando se llama apostador1.deposit(500), self se refiere a apostador1.
+g)  Se están creando 2 objetos de la clase Loteria - uno cada vez que se llama al método play() por apostador1 y apostador2.
+h)
+i)
+j) La clase Loteria tiene un atributo que hace referencia al objeto apostador (referencia a un objeto Apostador).
+k) La clase Loteria tiene dos atributos haciendo referencia a tipos primitivos: value (un número) y probability (un atributo de clase que es float).
+l) 

@@ -1,0 +1,3 @@
+a) Se están definiendo 3 clases: Apostador, ComisionJuegoEspectaculos y Loteria.
+b) la linea if __name__ == "--main__": se usa para determinar si el script se está ejecutando como módulo o de forma directa, permitiendo solo ejecutar el script si este es ejecutado directamente.
+c) 
